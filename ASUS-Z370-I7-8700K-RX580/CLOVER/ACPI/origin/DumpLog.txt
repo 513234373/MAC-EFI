@@ -1,0 +1,162 @@
+19:021  0:020  Found BIOS RSDP at FCE30
+19:021  0:000  Printing ACPI tables from RSDP FCE30 ...
+19:021  0:000   FCE30: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+19:021  0:000    (Xsdt: 799B90A8, Rsdt: 799B9028)
+19:021  0:000    799B90A8: 'XSDT', 'A M I', Rev: 1, Len: 196
+19:021  0:000    799B9028: 'RSDT', 'A M I', Rev: 1, Len: 116
+19:021  0:000    Tables in Xsdt: 20
+19:021  0:000    0. 799E4150: 'FACP', 'A M I', Rev: 6, Len: 276
+19:021  0:000        (Dsdt: 799B9200, Facs: 79DE2F00, XDsdt: 799B9200, XFacs: 0)
+19:021  0:000        799B9200: 'DSDT', 'A M I', Rev: 2, Len: 175949
+19:023  0:002        79DE2F00: 'FACS', Ver: 2, Len: 64
+19:023  0:000    1. 799E4268: 'APIC', 'A M I', Rev: 3, Len: 244
+19:023  0:000    2. 799E4360: 'FPDT', 'A M I', Rev: 1, Len: 68
+19:023  0:000    3. 799E43A8: 'FIDT', 'A M I', Rev: 1, Len: 156
+19:023  0:000    4. 799EFD70: 'WSMT', 'A M I', Rev: 1, Len: 40
+19:023  0:000    5. 799E44A0: 'MCFG', 'A M I', Rev: 1, Len: 60
+19:023  0:000    6. 799E44E0: 'SSDT', 'SataTabl', Rev: 1, Len: 931
+19:023  0:000    7. 799E4888: 'SSDT', 'SaSsdt', Rev: 2, Len: 12630
+19:023  0:000    8. 799E79E0: 'SSDT', 'PegSsdt', Rev: 2, Len: 9745
+19:023  0:000    9. 799E9FF8: 'HPET', 'KBL', Rev: 1, Len: 56
+19:023  0:000    10. 799EA030: 'SSDT', 'xh_rvp08', Rev: 2, Len: 2835
+19:023  0:000    11. 799EAB48: 'UEFI', 'A M I', Rev: 1, Len: 66
+19:023  0:000    12. 799EAB90: 'SSDT', 'CpuSsdt', Rev: 2, Len: 6062
+19:023  0:000    13. 799EC340: 'LPIT', 'KBL', Rev: 1, Len: 148
+19:023  0:000    14. 799EC3D8: 'SSDT', 'HdaDsp', Rev: 2, Len: 321
+19:023  0:000    15. 799EC520: 'SSDT', 'sensrhub', Rev: 2, Len: 671
+19:023  0:000    16. 799EC7C0: 'SSDT', 'PtidDevc', Rev: 2, Len: 12290
+19:023  0:000    17. 799EF7C8: 'SSDT', 'TbtTypeC', Rev: 2, Len: 1303
+19:023  0:000    18. 799EFCE0: 'DBGP', '', Rev: 1, Len: 52
+19:023  0:000    19. 799EFD18: 'DBG2', '', Rev: 0, Len: 84
+19:023  0:000    Tables in Rsdt: 20
+19:023  0:000    0. 799B9178: 'FACP', 'A M I', Rev: 2, Len: 132
+19:023  0:000        (Dsdt: 799B9200, Facs: 79DE2EC0)
+19:023  0:000        799B9200: 'DSDT', 'A M I', Rev: 2, Len: 175949
+19:025  0:002        79DE2EC0: 'FACS', Ver: 0, Len: 64
+19:025  0:000    1. 799E4268: 'APIC', 'A M I', Rev: 3, Len: 244
+19:025  0:000    2. 799E4360: 'FPDT', 'A M I', Rev: 1, Len: 68
+19:025  0:000    3. 799E43A8: 'FIDT', 'A M I', Rev: 1, Len: 156
+19:025  0:000    4. 799EFD70: 'WSMT', 'A M I', Rev: 1, Len: 40
+19:025  0:000    5. 799E44A0: 'MCFG', 'A M I', Rev: 1, Len: 60
+19:025  0:000    6. 799E44E0: 'SSDT', 'SataTabl', Rev: 1, Len: 931
+19:025  0:000    7. 799E4888: 'SSDT', 'SaSsdt', Rev: 2, Len: 12630
+19:025  0:000    8. 799E79E0: 'SSDT', 'PegSsdt', Rev: 2, Len: 9745
+19:025  0:000    9. 799E9FF8: 'HPET', 'KBL', Rev: 1, Len: 56
+19:025  0:000    10. 799EA030: 'SSDT', 'xh_rvp08', Rev: 2, Len: 2835
+19:025  0:000    11. 799EAB48: 'UEFI', 'A M I', Rev: 1, Len: 66
+19:025  0:000    12. 799EAB90: 'SSDT', 'CpuSsdt', Rev: 2, Len: 6062
+19:025  0:000    13. 799EC340: 'LPIT', 'KBL', Rev: 1, Len: 148
+19:025  0:000    14. 799EC3D8: 'SSDT', 'HdaDsp', Rev: 2, Len: 321
+19:025  0:000    15. 799EC520: 'SSDT', 'sensrhub', Rev: 2, Len: 671
+19:025  0:000    16. 799EC7C0: 'SSDT', 'PtidDevc', Rev: 2, Len: 12290
+19:025  0:000    17. 799EF7C8: 'SSDT', 'TbtTypeC', Rev: 2, Len: 1303
+19:025  0:000    18. 799EFCE0: 'DBGP', '', Rev: 1, Len: 52
+19:025  0:000    19. 799EFD18: 'DBG2', '', Rev: 0, Len: 84
+19:025  0:000  Found UEFI Acpi 2.0 RSDP at 799B9000
+19:025  0:000  Saving ACPI tables from RSDP 799B9000 to EFI\CLOVER\ACPI\origin ...
+19:025  0:000   799B9000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36 -> RSDP.aml
+19:051  0:026    (Xsdt: 799B90A8, Rsdt: 799B9028)
+19:051  0:000    799B90A8: 'XSDT', 'A M I', Rev: 1, Len: 196 -> XSDT.aml
+19:073  0:021    799B9028: 'RSDT', 'A M I', Rev: 1, Len: 116 -> RSDT.aml
+19:094  0:021    Tables in Xsdt: 20
+19:094  0:000    0. 799E4150: 'FACP', 'A M I', Rev: 6, Len: 276 -> FACP.aml
+19:115  0:021        (Dsdt: 799B9200, Facs: 79DE2F00, XDsdt: 799B9200, XFacs: 0)
+19:115  0:000        799B9200: 'DSDT', 'A M I', Rev: 2, Len: 175949
+19:118  0:002        79DE2F00: 'FACS', Ver: 2, Len: 64
+19:118  0:000    1. 799E4268: 'APIC', 'A M I', Rev: 3, Len: 244
+19:118  0:000    2. 799E4360: 'FPDT', 'A M I', Rev: 1, Len: 68
+19:118  0:000    3. 799E43A8: 'FIDT', 'A M I', Rev: 1, Len: 156
+19:118  0:000    4. 799EFD70: 'WSMT', 'A M I', Rev: 1, Len: 40
+19:118  0:000    5. 799E44A0: 'MCFG', 'A M I', Rev: 1, Len: 60
+19:118  0:000    6. 799E44E0: 'SSDT', 'SataTabl', Rev: 1, Len: 931
+19:118  0:000    7. 799E4888: 'SSDT', 'SaSsdt', Rev: 2, Len: 12630
+19:118  0:000    8. 799E79E0: 'SSDT', 'PegSsdt', Rev: 2, Len: 9745
+19:118  0:000    9. 799E9FF8: 'HPET', 'KBL', Rev: 1, Len: 56
+19:118  0:000    10. 799EA030: 'SSDT', 'xh_rvp08', Rev: 2, Len: 2835
+19:118  0:000    11. 799EAB48: 'UEFI', 'A M I', Rev: 1, Len: 66
+19:118  0:000    12. 799EAB90: 'SSDT', 'CpuSsdt', Rev: 2, Len: 6062
+19:118  0:000    13. 799EC340: 'LPIT', 'KBL', Rev: 1, Len: 148
+19:118  0:000    14. 799EC3D8: 'SSDT', 'HdaDsp', Rev: 2, Len: 321
+19:118  0:000    15. 799EC520: 'SSDT', 'sensrhub', Rev: 2, Len: 671
+19:118  0:000    16. 799EC7C0: 'SSDT', 'PtidDevc', Rev: 2, Len: 12290
+19:118  0:000    17. 799EF7C8: 'SSDT', 'TbtTypeC', Rev: 2, Len: 1303
+19:118  0:000    18. 799EFCE0: 'DBGP', '', Rev: 1, Len: 52
+19:118  0:000    19. 799EFD18: 'DBG2', '', Rev: 0, Len: 84
+19:118  0:000    Tables in Rsdt: 20
+19:118  0:000    0. 799B9178: 'FACP', 'A M I', Rev: 2, Len: 132
+19:118  0:000        (Dsdt: 799B9200, Facs: 79DE2EC0)
+19:118  0:000        799B9200: 'DSDT', 'A M I', Rev: 2, Len: 175949
+19:120  0:002        79DE2EC0: 'FACS', Ver: 0, Len: 64
+19:120  0:000    1. 799E4268: 'APIC', 'A M I', Rev: 3, Len: 244
+19:120  0:000    2. 799E4360: 'FPDT', 'A M I', Rev: 1, Len: 68
+19:120  0:000    3. 799E43A8: 'FIDT', 'A M I', Rev: 1, Len: 156
+19:120  0:000    4. 799EFD70: 'WSMT', 'A M I', Rev: 1, Len: 40
+19:120  0:000    5. 799E44A0: 'MCFG', 'A M I', Rev: 1, Len: 60
+19:120  0:000    6. 799E44E0: 'SSDT', 'SataTabl', Rev: 1, Len: 931
+19:120  0:000    7. 799E4888: 'SSDT', 'SaSsdt', Rev: 2, Len: 12630
+19:120  0:000    8. 799E79E0: 'SSDT', 'PegSsdt', Rev: 2, Len: 9745
+19:120  0:000    9. 799E9FF8: 'HPET', 'KBL', Rev: 1, Len: 56
+19:120  0:000    10. 799EA030: 'SSDT', 'xh_rvp08', Rev: 2, Len: 2835
+19:120  0:000    11. 799EAB48: 'UEFI', 'A M I', Rev: 1, Len: 66
+19:120  0:000    12. 799EAB90: 'SSDT', 'CpuSsdt', Rev: 2, Len: 6062
+19:120  0:000    13. 799EC340: 'LPIT', 'KBL', Rev: 1, Len: 148
+19:120  0:000    14. 799EC3D8: 'SSDT', 'HdaDsp', Rev: 2, Len: 321
+19:120  0:000    15. 799EC520: 'SSDT', 'sensrhub', Rev: 2, Len: 671
+19:120  0:000    16. 799EC7C0: 'SSDT', 'PtidDevc', Rev: 2, Len: 12290
+19:120  0:000    17. 799EF7C8: 'SSDT', 'TbtTypeC', Rev: 2, Len: 1303
+19:120  0:000    18. 799EFCE0: 'DBGP', '', Rev: 1, Len: 52
+19:120  0:000    19. 799EFD18: 'DBG2', '', Rev: 0, Len: 84
+19:120  0:000  Found UEFI Acpi 1.0 RSDP at 799B9000
+19:120  0:000  Printing ACPI tables from RSDP 799B9000 ...
+19:120  0:000   799B9000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+19:120  0:000    (Xsdt: 799B90A8, Rsdt: 799B9028)
+19:120  0:000    799B90A8: 'XSDT', 'A M I', Rev: 1, Len: 196
+19:120  0:000    799B9028: 'RSDT', 'A M I', Rev: 1, Len: 116
+19:120  0:000    Tables in Xsdt: 20
+19:120  0:000    0. 799E4150: 'FACP', 'A M I', Rev: 6, Len: 276
+19:120  0:000        (Dsdt: 799B9200, Facs: 79DE2F00, XDsdt: 799B9200, XFacs: 0)
+19:120  0:000        799B9200: 'DSDT', 'A M I', Rev: 2, Len: 175949
+19:122  0:002        79DE2F00: 'FACS', Ver: 2, Len: 64
+19:122  0:000    1. 799E4268: 'APIC', 'A M I', Rev: 3, Len: 244
+19:122  0:000    2. 799E4360: 'FPDT', 'A M I', Rev: 1, Len: 68
+19:122  0:000    3. 799E43A8: 'FIDT', 'A M I', Rev: 1, Len: 156
+19:122  0:000    4. 799EFD70: 'WSMT', 'A M I', Rev: 1, Len: 40
+19:122  0:000    5. 799E44A0: 'MCFG', 'A M I', Rev: 1, Len: 60
+19:122  0:000    6. 799E44E0: 'SSDT', 'SataTabl', Rev: 1, Len: 931
+19:122  0:000    7. 799E4888: 'SSDT', 'SaSsdt', Rev: 2, Len: 12630
+19:122  0:000    8. 799E79E0: 'SSDT', 'PegSsdt', Rev: 2, Len: 9745
+19:122  0:000    9. 799E9FF8: 'HPET', 'KBL', Rev: 1, Len: 56
+19:122  0:000    10. 799EA030: 'SSDT', 'xh_rvp08', Rev: 2, Len: 2835
+19:122  0:000    11. 799EAB48: 'UEFI', 'A M I', Rev: 1, Len: 66
+19:122  0:000    12. 799EAB90: 'SSDT', 'CpuSsdt', Rev: 2, Len: 6062
+19:122  0:000    13. 799EC340: 'LPIT', 'KBL', Rev: 1, Len: 148
+19:122  0:000    14. 799EC3D8: 'SSDT', 'HdaDsp', Rev: 2, Len: 321
+19:122  0:000    15. 799EC520: 'SSDT', 'sensrhub', Rev: 2, Len: 671
+19:122  0:000    16. 799EC7C0: 'SSDT', 'PtidDevc', Rev: 2, Len: 12290
+19:122  0:000    17. 799EF7C8: 'SSDT', 'TbtTypeC', Rev: 2, Len: 1303
+19:122  0:000    18. 799EFCE0: 'DBGP', '', Rev: 1, Len: 52
+19:122  0:000    19. 799EFD18: 'DBG2', '', Rev: 0, Len: 84
+19:122  0:000    Tables in Rsdt: 20
+19:122  0:000    0. 799B9178: 'FACP', 'A M I', Rev: 2, Len: 132
+19:122  0:000        (Dsdt: 799B9200, Facs: 79DE2EC0)
+19:122  0:000        799B9200: 'DSDT', 'A M I', Rev: 2, Len: 175949
+19:124  0:002        79DE2EC0: 'FACS', Ver: 0, Len: 64
+19:124  0:000    1. 799E4268: 'APIC', 'A M I', Rev: 3, Len: 244
+19:124  0:000    2. 799E4360: 'FPDT', 'A M I', Rev: 1, Len: 68
+19:124  0:000    3. 799E43A8: 'FIDT', 'A M I', Rev: 1, Len: 156
+19:124  0:000    4. 799EFD70: 'WSMT', 'A M I', Rev: 1, Len: 40
+19:124  0:000    5. 799E44A0: 'MCFG', 'A M I', Rev: 1, Len: 60
+19:124  0:000    6. 799E44E0: 'SSDT', 'SataTabl', Rev: 1, Len: 931
+19:124  0:000    7. 799E4888: 'SSDT', 'SaSsdt', Rev: 2, Len: 12630
+19:124  0:000    8. 799E79E0: 'SSDT', 'PegSsdt', Rev: 2, Len: 9745
+19:124  0:000    9. 799E9FF8: 'HPET', 'KBL', Rev: 1, Len: 56
+19:124  0:000    10. 799EA030: 'SSDT', 'xh_rvp08', Rev: 2, Len: 2835
+19:124  0:000    11. 799EAB48: 'UEFI', 'A M I', Rev: 1, Len: 66
+19:124  0:000    12. 799EAB90: 'SSDT', 'CpuSsdt', Rev: 2, Len: 6062
+19:124  0:000    13. 799EC340: 'LPIT', 'KBL', Rev: 1, Len: 148
+19:124  0:000    14. 799EC3D8: 'SSDT', 'HdaDsp', Rev: 2, Len: 321
+19:124  0:000    15. 799EC520: 'SSDT', 'sensrhub', Rev: 2, Len: 671
+19:124  0:000    16. 799EC7C0: 'SSDT', 'PtidDevc', Rev: 2, Len: 12290
+19:124  0:000    17. 799EF7C8: 'SSDT', 'TbtTypeC', Rev: 2, Len: 1303
+19:124  0:000    18. 799EFCE0: 'DBGP', '', Rev: 1, Len: 52
+19:124  0:000    19. 799EFD18: 'DBG2', '', Rev: 0, Len: 84
