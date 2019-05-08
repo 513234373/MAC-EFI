@@ -1227,10 +1227,6 @@
 		<string>0x01</string>
 		<key>ProductName</key>
 		<string>iMac15,1</string>
-		<key>SerialNumber</key>
-		<string>C02QQ3Y9FY10</string>
-		<key>SmUUID</key>
-		<string>0C6EB8E0-5215-4ABA-BBDD-A4F551607983</string>
 		<key>Version</key>
 		<string>1.0</string>
 	</dict>
@@ -1244,8 +1240,6 @@
 		<false/>
 		<key>#NvidiaWeb</key>
 		<false/>
-		<key>CustomUUID</key>
-		<string>117E9CFC-D8E9-4637-89EB-24679557A7EA</string>
 		<key>InjectKexts</key>
 		<string>Yes</string>
 		<key>InjectSystemID</key>
