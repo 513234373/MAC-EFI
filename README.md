@@ -8,7 +8,7 @@ Share some hackintosh Clover files.
 
 # 特此感谢
 衷心感谢以下热心网友们对本项目的贡献，以下排名不分先后:  
-黑苹果安装园地
+黑苹果安装园地,黑果小兵
 
 # PC台式机
 
